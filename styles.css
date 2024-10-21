@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5e9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.resume-container {
+    width: 1000px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    width: 45%;
+    background-color: #ae8f72;
+    padding: 20px;
+    color: #fff;
+}
+
+.right-section {
+    width: 65%;
+    background-color: #d0c4a6;
+    padding: 20px;
+}
+
+.left-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #d0c4a6;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #333;
+}
+
+.contact, .skills, .languages {
+    margin-bottom: 20px;
+}
+
+.contact h3, .skills h3, .languages h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.right-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #ae8f72;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.about p, .education ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+h3::before {
+    content: "📌 ";
+}
+
+.socials {
+    
+    margin-top: 2%;
+    margin-left: 20%;
+
+}
+.ps {
+    text-align: justify;
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 0.5em;
+    color: #aaa;
+
+  }
